@@ -4,7 +4,7 @@
 (add-to-list 'load-path (directory-file-name (or (file-name-directory #$) (car load-path))))
 
 ;;;### (autoloads nil "color-theme-sanityinc-tomorrow" "color-theme-sanityinc-tomorrow.el"
-;;;;;;  (22794 61148 421717 665000))
+;;;;;;  (22795 21442 63619 132000))
 ;;; Generated autoloads from color-theme-sanityinc-tomorrow.el
 
 (when (boundp 'custom-theme-load-path) (add-to-list 'custom-theme-load-path (file-name-as-directory (file-name-directory load-file-name))))
@@ -39,8 +39,7 @@ Apply the tomorrow blue theme.
 ;;;### (autoloads nil nil ("color-theme-sanityinc-tomorrow-pkg.el"
 ;;;;;;  "sanityinc-tomorrow-blue-theme.el" "sanityinc-tomorrow-bright-theme.el"
 ;;;;;;  "sanityinc-tomorrow-day-theme.el" "sanityinc-tomorrow-eighties-theme.el"
-;;;;;;  "sanityinc-tomorrow-night-theme.el") (22794 61148 441717
-;;;;;;  664000))
+;;;;;;  "sanityinc-tomorrow-night-theme.el") (22795 21442 87619 132000))
 
 ;;;***
 

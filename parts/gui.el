@@ -6,12 +6,13 @@
 
 (require 'all-the-icons)
 (load-theme 'sanityinc-tomorrow-eighties t)
-(require 'powerline)
-(powerline-default-theme)
-;;(require 'spaceline-all-the-icons)
-;;(spaceline-all-the-icons-theme)
-;;(spaceline-toggle-all-the-icons-projectile-off)
-;;(spaceline-toggle-all-the-icons-hud-off)
+(require 'spaceline-all-the-icons)
+(spaceline-all-the-icons-theme)
+(spaceline-toggle-all-the-icons-hud-off)
+(setq spaceline-all-the-icons-flycheck-alternate t)
+(setq spaceline-all-the-icons-hide-long-buffer-path t)
+(setq spaceline-all-the-icons-separator-type 'cup)
+(setq spaceline-all-the-icons-slim-render t)
 
 (custom-set-variables
   ;; custom-set-variables was added by Custom.
@@ -25,10 +26,7 @@
      (quote
        (nlinum helm winum persp-mode eyebrowse ## flycheck-rust flycheck racer powerline company all-the-icons)))
   '(powerline-default-separator (quote contour)))
+
 (custom-set-faces
-  ;; custom-set-faces was added by Custom.
-  ;; If you edit it by hand, you could mess it up, so be careful.
-  ;; Your init file should contain only one such instance.
-  ;; If there is more than one, they won't work right.
   '(default ((t (:family "Liberation Mono" :foundry "1ASC" :slant normal :weight normal :height 143 :width normal)))))
 
