@@ -1,4 +1,6 @@
-(provide 'actions)
+;;; rust --- Summary
+;;; Commentary:
+;;; Code:
 ;;window movement
 (windmove-default-keybindings)
 
@@ -56,4 +58,5 @@
                                       ))
 (setq term-term-name "eterm-color")
 (blink-cursor-mode)
-
+(provide 'actions)
+;;; actions.el ends here

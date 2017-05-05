@@ -1,4 +1,6 @@
-(provide 'gui)
+;;; gui --- Summary
+;;; Commentary:
+;;; Code:
 (setq default-frame-alist '((font . "Liberation Mono-14")))
 (set-frame-font "Liberation Mono-14")
 (require 'centered-cursor-mode)
@@ -17,3 +19,5 @@
 (setq spaceline-all-the-icons-hide-long-buffer-path t)
 (setq spaceline-all-the-icons-separator-type 'cup)
 (setq spaceline-all-the-icons-slim-render t)
+(provide 'gui)
+;;; gui.el ends here

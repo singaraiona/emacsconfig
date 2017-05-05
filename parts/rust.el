@@ -1,4 +1,6 @@
-(provide 'rust)
+;;; rust --- Summary
+;;; Commentary:
+;;; Code:
 (autoload 'rust-mode "rust-mode" nil t)
 (add-to-list 'auto-mode-alist '("\\.rs\\'" . rust-mode))
 
@@ -13,4 +15,6 @@
 (require 'flycheck-rust)
 (add-hook 'flycheck-mode-hook #'flycheck-rust-setup)
 (setq rust-format-on-save t)
-
+(setq racer-rust-src-path "~/rust/src")
+(provide 'rust)
+;;; rust.el ends here
