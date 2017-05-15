@@ -12,4 +12,18 @@
 (require 'actions)
 (require 'rust)
 (require 'q)
-(require 'env)
+(require 'sources)
+(custom-set-variables
+  ;; custom-set-variables was added by Custom.
+  ;; If you edit it by hand, you could mess it up, so be careful.
+  ;; Your init file should contain only one such instance.
+  ;; If there is more than one, they won't work right.
+  '(package-selected-packages
+     (quote
+       (winum spaceline-all-the-icons racer persp-mode nlinum mode-icons magit helm-swoop helm-projectile helm-grepint helm-git-grep flycheck-rust eyebrowse elfeed-org elfeed-goodies company color-theme-sanityinc-tomorrow centered-cursor-mode cargo))))
+(custom-set-faces
+  ;; custom-set-faces was added by Custom.
+  ;; If you edit it by hand, you could mess it up, so be careful.
+  ;; Your init file should contain only one such instance.
+  ;; If there is more than one, they won't work right.
+  )

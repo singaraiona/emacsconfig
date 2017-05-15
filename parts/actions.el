@@ -65,5 +65,6 @@
 (require 'misc)
 (global-set-key "\M-f" 'forward-to-word)
 (global-set-key (kbd "C-x w") 'elfeed)
+(global-set-key (kbd "C-x g") 'magit-status)
 (provide 'actions)
 ;;; actions.el ends here
