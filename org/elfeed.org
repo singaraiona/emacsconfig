@@ -1,0 +1,5 @@
+* blogs                                                        :elfeed:
+** daily                                                        :daily:
+*** https://news.ycombinator.com/rss
+*** https://www.reddit.com/.rss
+*** http://rss.slashdot.org/Slashdot/slashdotMain

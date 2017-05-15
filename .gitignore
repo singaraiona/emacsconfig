@@ -1,5 +1,6 @@
 *.data
 *.eld
+*.elc
 *~
 *.cache
 recentf

@@ -9,7 +9,7 @@
 (tool-bar-mode -1)
 (scroll-bar-mode -1)
 (show-paren-mode 1)
-
+(set-default 'truncate-lines t)
 (require 'all-the-icons)
 (load-theme 'sanityinc-tomorrow-eighties t)
 (require 'spaceline-all-the-icons)
@@ -19,5 +19,6 @@
 (setq spaceline-all-the-icons-hide-long-buffer-path t)
 (setq spaceline-all-the-icons-separator-type 'cup)
 (setq spaceline-all-the-icons-slim-render t)
+(set-cursor-color "#696969")
 (provide 'gui)
 ;;; gui.el ends here

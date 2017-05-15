@@ -1,4 +1,4 @@
-;;; rust --- Summary
+;;; actions --- Summary
 ;;; Commentary:
 ;;; Code:
 ;;window movement
@@ -58,5 +58,12 @@
                                       ))
 (setq term-term-name "eterm-color")
 (blink-cursor-mode)
+(defun my-projectile-clear-cache (candicate)
+  (projectile-invalidate-cache nil))
+(helm-projectile-define-key helm-projectile-find-file-map
+                            (kbd "C-c u") #'my-projectile-clear-cache)
+(require 'misc)
+(global-set-key "\M-f" 'forward-to-word)
+(global-set-key (kbd "C-x w") 'elfeed)
 (provide 'actions)
 ;;; actions.el ends here

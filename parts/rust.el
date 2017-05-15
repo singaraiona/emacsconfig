@@ -16,5 +16,6 @@
 (add-hook 'flycheck-mode-hook #'flycheck-rust-setup)
 (setq rust-format-on-save t)
 (setq racer-rust-src-path "~/rust/src")
+(add-hook 'rust-mode-hook 'cargo-minor-mode)
 (provide 'rust)
 ;;; rust.el ends here
