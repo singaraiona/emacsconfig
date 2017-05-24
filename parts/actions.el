@@ -66,5 +66,7 @@
 (global-set-key "\M-f" 'forward-to-word)
 (global-set-key (kbd "C-x w") 'elfeed)
 (global-set-key (kbd "C-x g") 'magit-status)
+;; disable Ctrl-Z
+(global-set-key (kbd "C-Z") nil)
 (provide 'actions)
 ;;; actions.el ends here
