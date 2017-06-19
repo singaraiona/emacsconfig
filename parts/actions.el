@@ -68,5 +68,8 @@
 (global-set-key (kbd "C-x g") 'magit-status)
 ;; disable Ctrl-Z
 (global-set-key (kbd "C-Z") nil)
+(global-eldoc-mode -1)
+(setq browse-url-browser-function 'browse-url-generic
+      browse-url-generic-program "/usr/bin/conkeror")
 (provide 'actions)
 ;;; actions.el ends here
