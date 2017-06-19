@@ -10,7 +10,7 @@
 (setq load-path (append '("~/.emacs.d/setup") load-path))
 (setq load-path (append '("~/.emacs.d/parts") load-path))
 (setq load-path (append '("~/.emacs.d/plugins") load-path))
-
+(package-refresh-contents)
 (require 'installed)
 (unless package-archive-contents
   (package-refresh-contents))
@@ -18,11 +18,12 @@
 (dolist (package package-list)
   (unless (package-installed-p package)
     (package-install package)))
-
-(require 'gui)
 (require 'actions)
 (require 'rust)
 (require 'q)
 (require 'pico)
 (require 'autoheader)
+(require 'gui)
+
 (provide 'init)
+;;; init
