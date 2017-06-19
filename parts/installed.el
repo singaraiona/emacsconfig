@@ -22,10 +22,12 @@
                      paradox
                      racer
                      smartparens
-                     spaceline-all-the-icons
+                     spaceline
                      tagedit
                      use-package
                      winum
+                     doom-themes
+                     nlinum-hl
                      ))
 (provide 'installed)
 ;;; installed.el ends here

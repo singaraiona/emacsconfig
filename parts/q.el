@@ -1,4 +1,4 @@
-;;; rust --- Summary
+;;; q --- Summary
 ;;; Commentary:
 ;;; Code:
 (autoload 'q-mode "q-mode")
