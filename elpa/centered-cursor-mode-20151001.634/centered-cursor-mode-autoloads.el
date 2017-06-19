@@ -4,7 +4,7 @@
 (add-to-list 'load-path (directory-file-name (or (file-name-directory #$) (car load-path))))
 
 ;;;### (autoloads nil "centered-cursor-mode" "centered-cursor-mode.el"
-;;;;;;  (22796 11441 209407 282000))
+;;;;;;  (22855 52413 585616 841000))
 ;;; Generated autoloads from centered-cursor-mode.el
 
 (autoload 'centered-cursor-mode "centered-cursor-mode" "\

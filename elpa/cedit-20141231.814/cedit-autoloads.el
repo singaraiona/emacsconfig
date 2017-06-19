@@ -1,10 +1,9 @@
 ;;; cedit-autoloads.el --- automatically extracted autoloads
 ;;
 ;;; Code:
-
 (add-to-list 'load-path (directory-file-name (or (file-name-directory #$) (car load-path))))
 
-;;;### (autoloads nil "cedit" "cedit.el" (0 0 0 0))
+;;;### (autoloads nil "cedit" "cedit.el" (22855 52413 151616 843000))
 ;;; Generated autoloads from cedit.el
 
 (autoload 'cedit-forward-char "cedit" "\
@@ -108,14 +107,11 @@ to raise statement, in case comma-expr is also able to be raise, mark it.
 
 \(fn)" t nil)
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "cedit" '("cedit-")))
-
 ;;;***
 
 ;; Local Variables:
 ;; version-control: never
 ;; no-byte-compile: t
 ;; no-update-autoloads: t
-;; coding: utf-8
 ;; End:
 ;;; cedit-autoloads.el ends here

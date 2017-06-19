@@ -4,7 +4,7 @@
 (add-to-list 'load-path (directory-file-name (or (file-name-directory #$) (car load-path))))
 
 ;;;### (autoloads nil "spaceline-all-the-icons" "spaceline-all-the-icons.el"
-;;;;;;  (22850 24250 779974 274000))
+;;;;;;  (22855 52438 857616 745000))
 ;;; Generated autoloads from spaceline-all-the-icons.el
 
 (autoload 'spaceline-all-the-icons-theme "spaceline-all-the-icons" "\
@@ -16,8 +16,8 @@ Add ADDITIONAL-SEGMENTS to the end of the theme.
 ;;;***
 
 ;;;### (autoloads nil nil ("spaceline-all-the-icons-pkg.el" "spaceline-all-the-icons-segments.el"
-;;;;;;  "spaceline-all-the-icons-separators.el") (22850 24250 785974
-;;;;;;  274000))
+;;;;;;  "spaceline-all-the-icons-separators.el") (22855 52438 864616
+;;;;;;  745000))
 
 ;;;***
 

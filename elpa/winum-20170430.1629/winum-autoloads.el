@@ -3,7 +3,7 @@
 ;;; Code:
 (add-to-list 'load-path (directory-file-name (or (file-name-directory #$) (car load-path))))
 
-;;;### (autoloads nil "winum" "winum.el" (22794 1777 47944 148000))
+;;;### (autoloads nil "winum" "winum.el" (22855 52441 152616 736000))
 ;;; Generated autoloads from winum.el
 
 (defvar winum-mode nil "\

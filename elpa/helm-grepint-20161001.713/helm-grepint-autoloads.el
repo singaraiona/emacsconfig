@@ -3,8 +3,8 @@
 ;;; Code:
 (add-to-list 'load-path (directory-file-name (or (file-name-directory #$) (car load-path))))
 
-;;;### (autoloads nil "helm-grepint" "helm-grepint.el" (22795 21617
-;;;;;;  448618 463000))
+;;;### (autoloads nil "helm-grepint" "helm-grepint.el" (22855 52426
+;;;;;;  669616 792000))
 ;;; Generated autoloads from helm-grepint.el
 
 (autoload 'helm-grepint-grep "helm-grepint" "\

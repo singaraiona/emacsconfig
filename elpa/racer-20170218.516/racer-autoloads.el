@@ -3,7 +3,7 @@
 ;;; Code:
 (add-to-list 'load-path (directory-file-name (or (file-name-directory #$) (car load-path))))
 
-;;;### (autoloads nil "racer" "racer.el" (22793 53940 121995 162000))
+;;;### (autoloads nil "racer" "racer.el" (22855 52435 353616 758000))
 ;;; Generated autoloads from racer.el
 
 (autoload 'racer-find-definition "racer" "\

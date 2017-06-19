@@ -3,8 +3,8 @@
 ;;; Code:
 (add-to-list 'load-path (directory-file-name (or (file-name-directory #$) (car load-path))))
 
-;;;### (autoloads nil "helm-git-grep" "helm-git-grep.el" (22850 24256
-;;;;;;  368974 253000))
+;;;### (autoloads nil "helm-git-grep" "helm-git-grep.el" (22855 52422
+;;;;;;  853616 806000))
 ;;; Generated autoloads from helm-git-grep.el
 
 (autoload 'helm-git-grep-ls-files-limited-by-pathspec "helm-git-grep" "\

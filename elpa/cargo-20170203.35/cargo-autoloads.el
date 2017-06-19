@@ -3,7 +3,7 @@
 ;;; Code:
 (add-to-list 'load-path (directory-file-name (or (file-name-directory #$) (car load-path))))
 
-;;;### (autoloads nil "cargo" "cargo.el" (22796 32810 587325 765000))
+;;;### (autoloads nil "cargo" "cargo.el" (22855 52412 730616 845000))
 ;;; Generated autoloads from cargo.el
 
 (autoload 'cargo-minor-mode "cargo" "\
@@ -13,8 +13,8 @@ Cargo minor mode. Used to hold keybindings for cargo-mode
 
 ;;;***
 
-;;;### (autoloads nil "cargo-process" "cargo-process.el" (22796 32810
-;;;;;;  583325 765000))
+;;;### (autoloads nil "cargo-process" "cargo-process.el" (22855 52412
+;;;;;;  727616 845000))
 ;;; Generated autoloads from cargo-process.el
 
 (autoload 'cargo-process-bench "cargo-process" "\
@@ -157,7 +157,7 @@ Run the last cargo-process command.
 
 ;;;***
 
-;;;### (autoloads nil nil ("cargo-pkg.el") (22796 32810 590325 765000))
+;;;### (autoloads nil nil ("cargo-pkg.el") (22855 52412 732616 845000))
 
 ;;;***
 

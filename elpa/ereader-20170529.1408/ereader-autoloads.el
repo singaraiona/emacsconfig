@@ -4,7 +4,7 @@
 (add-to-list 'load-path (directory-file-name (or (file-name-directory #$) (car load-path))))
 
 ;;;### (autoloads nil nil ("ereader-pkg.el" "ereader.el" "org-ebook.el")
-;;;;;;  (22855 40494 413662 309000))
+;;;;;;  (22855 52416 572616 830000))
 
 ;;;***
 
