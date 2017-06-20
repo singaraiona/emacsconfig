@@ -22,7 +22,7 @@
                      paradox
                      racer
                      smartparens
-                     spaceline
+                     spaceline-all_the-icons
                      tagedit
                      use-package
                      winum
