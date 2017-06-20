@@ -29,6 +29,8 @@
 (add-hook 'dired-mode-hook 'all-the-icons-dired-mode)
 (global-nlinum-mode)
 ;;
+(cua-mode t)
+;;
 (load-theme 'sanityinc-tomorrow-eighties t)
 ;;
 (require 'all-the-icons)
