@@ -33,7 +33,7 @@
  ;; If there is more than one, they won't work right.
  '(package-selected-packages
    (quote
-    (winum use-package tagedit spaceline-all-the-icons smartparens smart-mode-line-powerline-theme racer powerline-evil paradox nlinum-hl mode-icons magit helm-swoop helm-projectile helm-grepint helm-git-grep flycheck-rust eyebrowse evil-anzu ereader doom-themes deferred company color-theme-sanityinc-tomorrow centered-cursor-mode cedit cargo all-the-icons-dired airline-themes ag)))
+    (winum use-package tagedit spaceline-all-the-icons smartparens racer paradox nlinum-hl mode-icons magit helm-swoop helm-projectile helm-grepint helm-git-grep flycheck-rust eyebrowse ereader deferred company color-theme-sanityinc-tomorrow centered-cursor-mode cedit cargo all-the-icons-dired ag)))
  '(paradox-github-token t)
  '(size-indication-mode t)
  '(spaceline-all-the-icons-primary-separator "")

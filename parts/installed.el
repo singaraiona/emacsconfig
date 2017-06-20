@@ -3,6 +3,7 @@
 ;;; Code:
 (setq package-list '(
                      ag
+                     spaceline-all-the-icons
                      all-the-icons-dired
                      cargo
                      cedit
@@ -22,7 +23,6 @@
                      paradox
                      racer
                      smartparens
-                     spaceline-all_the-icons
                      tagedit
                      use-package
                      winum
