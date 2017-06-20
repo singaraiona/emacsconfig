@@ -24,25 +24,6 @@
 (require 'pico)
 (require 'autoheader)
 (require 'gui)
+
 (provide 'init)
 ;;; init
-(custom-set-variables
- ;; custom-set-variables was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
- '(package-selected-packages
-   (quote
-    (winum use-package tagedit spaceline-all-the-icons smartparens racer paradox nlinum-hl mode-icons magit helm-swoop helm-projectile helm-grepint helm-git-grep flycheck-rust eyebrowse ereader deferred company color-theme-sanityinc-tomorrow centered-cursor-mode cedit cargo all-the-icons-dired ag)))
- '(paradox-github-token t)
- '(size-indication-mode t)
- '(spaceline-all-the-icons-primary-separator "")
- '(spaceline-all-the-icons-secondary-separator "")
- '(spaceline-all-the-icons-separator-type (quote slant))
- '(spaceline-all-the-icons-separators-invert-direction t))
-(custom-set-faces
- ;; custom-set-faces was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
- )

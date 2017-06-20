@@ -32,13 +32,16 @@
 (load-theme 'sanityinc-tomorrow-eighties t)
 ;;
 (require 'all-the-icons)
-(spaceline-all-the-icons-theme)
 (setq spaceline-all-the-icons-slim-render t)
-(spaceline-toggle-all-the-icons-hud-off)
 (setq spaceline-all-the-icons-primary-separator "")
 (setq spaceline-all-the-icons-secondary-separator "")
 (setq spaceline-all-the-icons-separator-type 'slant)
 (setq spaceline-all-the-icons-separators-invert-direction t)
+(setq spaceline-all-the-icons-file-name-highlight t)
+(setq spaceline-all-the-icons-flycheck-alternate t)
+(setq spaceline-all-the-icons-highlight-file-name t)
+(spaceline-all-the-icons-theme)
+(spaceline-toggle-all-the-icons-hud-off)
 
 (provide 'gui)
 ;;; gui.el ends here
