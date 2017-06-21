@@ -24,6 +24,7 @@
 (require 'pico)
 (require 'autoheader)
 (require 'gui)
+(require 'fb2-mode)
 
 (provide 'init)
 ;;; init
