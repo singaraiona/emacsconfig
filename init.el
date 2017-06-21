@@ -21,7 +21,6 @@
 (require 'actions)
 (require 'rust)
 (require 'q)
-(require 'pico)
 (require 'autoheader)
 (require 'gui)
 (require 'fb2-mode)
