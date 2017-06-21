@@ -28,6 +28,7 @@
                      winum
                      doom-themes
                      nlinum-hl
+                     bm
                      ))
 (provide 'installed)
 ;;; installed.el ends here
