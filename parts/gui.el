@@ -50,5 +50,8 @@
 (global-set-key (kbd "<f2>")   'bm-next)
 (global-set-key (kbd "<S-f2>") 'bm-previous)
 ;;
+(require 'smooth-scrolling)
+(smooth-scrolling-mode 1)
+;;
 (provide 'gui)
 ;;; gui.el ends here
