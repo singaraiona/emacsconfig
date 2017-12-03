@@ -1,7 +1,7 @@
 ;;; gui --- Summary
 ;;; Commentary:
 ;;; Code:
-(setq default-frame-alist '((font . "M+1M-18")))
+(setq default-frame-alist '((font . "M+ 1m-18")))
 (menu-bar-mode -1)
 (tool-bar-mode -1)
 (scroll-bar-mode -1)
@@ -48,7 +48,6 @@
 ;; (require 'smooth-scrolling)
 ;; (smooth-scrolling-mode 1)
 ;;
-(load-theme 'sanityinc-tomorrow-blue t)
-;;
+(load-theme 'sanityinc-tomorrow-eighties t)
 (provide 'gui)
 ;;; gui.el ends here
