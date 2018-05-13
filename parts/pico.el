@@ -5,10 +5,11 @@
 (require 'picolisp);; Picolisp TransientSymbolsMarkup is automatically loaded
 (add-to-list 'auto-mode-alist '("\\.l$" . picolisp-mode))
 (add-hook 'picolisp-mode-hook
-          (lambda ()
+	  (lambda ()
             (paredit-mode +1) ;; Loads paredit mode automatically
             (tsm-mode) ;; Enables TSM
             (define-key picolisp-mode-map (kbd "RET") 'newline-and-indent)
-            (define-key picolisp-mode-map (kbd "C-h") 'paredit-backward-delete)))
+            (define-key picolisp-mode-map (kbd "C-h") 'paredit-backward-delete)) )
+
 (provide 'pico)
 ;;; pico.el ends here
