@@ -1,7 +1,7 @@
 ;;; actions --- Summary
 ;;; Commentary:
 ;;; Code:
-;;window movement
+;;; window movement
 (windmove-default-keybindings)
 
 (global-flycheck-mode)
@@ -33,7 +33,7 @@
 (global-set-key (kbd "M-s o") 'helm-occur)
 
 (require 'helm-files)
-;;(global-set-key (kbd "C-x C-f") 'helm-find-files)
+;; (global-set-key (kbd "C-x C-f") 'helm-find-files)
 (global-set-key (kbd "C-x C-f") 'helm-for-files)
 (setq helm-ff-guess-ffap-filenames t)
 (setq helm-ff-guess-ffap-urls t)
@@ -69,7 +69,7 @@
 ;; disable Ctrl-Z
 (global-set-key (kbd "C-Z") nil)
 (global-eldoc-mode -1)
-(setq browse-url-browser-function 'browse-url-generic
-      browse-url-generic-program "/usr/bin/conkeror")
+
+
 (provide 'actions)
 ;;; actions.el ends here

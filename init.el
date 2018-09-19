@@ -13,14 +13,29 @@
 (setq load-path (append '("~/.emacs.d/plugins") load-path))
 ;; install packages from selected list (if not installed)
 (package-refresh-contents)
-;; install required packages
-(dolist (package package-selected-packages)
-   (unless (package-installed-p package)
-   (package-install package)))
+(custom-set-variables
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(package-selected-packages
+   (quote
+    (helm-git-grep helm-grepint helm cider clojure-mode projectile better-defaults)))
+ '(paradox-github-token t))
+(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ )
+
+(dolist (p package-selected-packages)
+  (unless (package-installed-p p)
+    (package-install p)))
 
 (require 'actions)
-(require 'rust)
-(require 'q)
+;;(require 'rust)
+;;(require 'q)
 (require 'autoheader)
 (require 'gui)
-(require 'pico)
+;;(require 'pico)
